@@ -1,0 +1,59 @@
+@media screen and (max-width: 550px) and (orientation: portrait) {
+    .gallery-wrapper {
+        height: 85vw;
+    }
+    .gallery-inner {
+        height: 60vw;
+    }
+    .gallery-button {
+        width: 50vw;
+        height: 60vw;
+        position: absolute;
+        background-image: none;
+        background-color: transparent;
+        z-index: 2;
+    }
+    #left-button {
+        background-image: none;
+        left: 0;
+    }
+
+    #right-button {
+        right: 0;
+    }
+    .image-main-wrapper {
+        position: relative;
+        width: 100vw;
+        z-index: 1;
+    }
+    
+    .image-details-wrapper {
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+    }
+    #image-title {
+        padding-left: 3vh;
+        font-size: 1.2rem;
+        margin-bottom: 1vh;
+    }
+    #image-text {
+        padding-left: 3vh;
+        font-size: 0.7rem;
+    
+    }
+    .gallery-thumbnail-el {
+        width: 14vw;
+        height: 14vw;
+        border: none;
+    }
+
+    .icons-wrapper {
+        right: unset;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60vw;
+    }
+    .icons-wrapper > img {
+        width: 10vw;
+    }
+}
