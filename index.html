@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="gallerydata.json"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="gallery.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" href="right-arrow.svg">
+
+</head>
+<body>
+    <div class= "gallery-wrapper">
+        <div class="gallery-inner">
+            <div class="gallery-button" id= "left-button">
+            </div>
+            <div class="image-main-wrapper">
+                <img src="" id= "gallery-image">
+                <div class="image-details-wrapper">
+                    <div id="image-title"></div>
+                    <div id="image-text"></div>
+                </div>
+            </div>
+            <div class="gallery-button " id= "right-button"></div>
+        </div>
+        <div id="gallery-thumbnails">
+        </div>
+    </div>
+
+    <div class="icons-wrapper">
+        <img src="social/icon_fb.svg" onclick="window.open('https://www.facebook.com/bence.bakos.984/')">
+        <img src="social/icon_insta.svg" onclick="window.open('https://www.instagram.com/benb3d/')">
+        <img src="social/icon_linkedin.svg" onclick="window.open('https://www.linkedin.com/in/bence-bakos-63a1a2190/')">
+        <img src="social/icon_github.svg" onclick="window.open('https://github.com/bencebakos3d')">
+        <img src="social/icon_artstation.svg" onclick="window.open('https://www.artstation.com/bencebakos')">
+    </div>
+    
+</body>
+</html>
